@@ -1,43 +1,41 @@
-# WHO'S LYING? — Official Website
+# WHO'S LYING? Website v2
 
-A responsive, GitHub Pages-ready landing website for the **WHO'S LYING?** social deduction party game.
+GitHub Pages-ready website matching the approved WHO'S LYING? website concept.
 
-## Included
+## What's included
 
-- Responsive home page
-- Mobile navigation layout
-- Animated reveal effects
-- "How to Play" section
-- Feature cards
+- Responsive neon gaming homepage
+- Diverse family hero banner
+- Official WHO'S LYING? cover art
+- Real game screenshots
+- How It Works section
+- Game Features section
 - FAQ
-- Google Play launch area
-- Privacy Policy
-- Terms of Use
+- Privacy + Terms pages
 - Custom 404 page
-- GitHub Pages compatible static files
-- No build step required
+- Beta signup form
 
-## Publish with GitHub Pages
+## Beta signup
 
-1. Create a new GitHub repository, for example: `whos-lying-website`.
-2. Upload all files from this package to the repository root.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`.
-6. Save.
-7. GitHub will display the public Pages URL after deployment.
+The beta form currently sends signup emails to `waltermoore89@gmail.com` using FormSubmit.
 
-## Before public launch
+**Important:** FormSubmit normally sends a one-time activation/confirmation email the first time the form is submitted. Open that email and activate the form. After activation, future beta signups will be delivered to that email address.
 
-- Replace the placeholder support-email text in `privacy.html` and `terms.html`.
-- Replace the "COMING TO GOOGLE PLAY" button with the real Google Play listing URL.
-- Add the final official logo, screenshots, gameplay video and social links when available.
-- Have your final Privacy Policy and Terms reviewed for your actual production data practices.
+If your GitHub Pages repository URL changes, update the `_next` value in `index.html` so successful submissions return to the correct `beta-success.html` page.
 
-## Custom domain
+## GitHub Pages publish
 
-After purchasing a domain, add it in **Settings → Pages → Custom domain**.
+1. Upload the **contents of this folder** to the root of your `whoslyingwebsite` repository. Do not upload only the ZIP.
+2. In GitHub: **Settings → Pages**.
+3. Source: **Deploy from a branch**.
+4. Branch: **main**.
+5. Folder: **/(root)**.
+6. Click **Save**.
 
-## Technology
+Expected site URL:
 
-Plain HTML, CSS and JavaScript. No framework and no paid hosting requirement.
+`https://hunnitgrandgaming.github.io/whoslyingwebsite/`
+
+## Replacing the previous site
+
+It is safe to replace the old `index.html`, `styles.css`, `script.js`, and asset files with this version. Keep GitHub Pages pointed to `main / (root)`.
